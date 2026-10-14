@@ -22,7 +22,7 @@ public class latihan08 {
         System.out.print("IPK      : ");
         Float ipk = myBio.getGPA(in.nextFloat());
 
-        System.out.println("\n=== Data Mahasiswa ===");
+        System.out.println("\n Data Mahasiswa ");
         System.out.println("NPM      : " + npm);
         System.out.println("Fullname : " + nama);
         System.out.println("Kelas    : " + kelas);

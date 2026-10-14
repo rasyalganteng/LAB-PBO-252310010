@@ -2,7 +2,6 @@ package pembelajaran_01;
 
 public class latihan07 {
     public static void main(String[] args) {
-        // Local variable (ganti dengan data kamu)
         String npm = "2022xxxxx";
         String namaLengkap = "Nama Anda";
         String namaKelas = "TI-3A";
