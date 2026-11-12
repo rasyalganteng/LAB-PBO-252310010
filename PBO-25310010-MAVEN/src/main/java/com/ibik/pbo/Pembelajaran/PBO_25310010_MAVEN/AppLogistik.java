@@ -1,4 +1,4 @@
-package com.ibik.pbo.Pembelajaran.PBO_NPM_MAVEN;
+package com.ibik.pbo.Pembelajaran.PBO_25310010_MAVEN;
 
 
 import java.util.ArrayList;
@@ -36,7 +36,8 @@ public class AppLogistik {
         return r == JOptionPane.YES_OPTION;
     }
 
-        static Double inputAngka(String pesan) {
+    // 4a: bukan angka -> "Masukan angka". CANCEL -> konfirmasi keluar (NO = kembali ke menu utama)
+    static Double inputAngka(String pesan) {
         while (true) {
             String s = JOptionPane.showInputDialog(null, pesan, "Input Pesanan", JOptionPane.QUESTION_MESSAGE);
             if (s == null) {
@@ -91,6 +92,7 @@ public class AppLogistik {
     }
 
     static void tracking() {
+        // 4c: belum input pesanan -> tidak bisa tracking
         if (daftarPesanan.isEmpty()) {
             JOptionPane.showMessageDialog(null, "Anda belum melakukan Input Pesanan", "Error Info",
                     JOptionPane.ERROR_MESSAGE);
@@ -111,7 +113,7 @@ public class AppLogistik {
                 return;
             }
         }
-       
+        // 4d: resi tidak ketemu
         JOptionPane.showMessageDialog(null, "Data tidak ditemukan", "Error Info", JOptionPane.ERROR_MESSAGE);
     }
 

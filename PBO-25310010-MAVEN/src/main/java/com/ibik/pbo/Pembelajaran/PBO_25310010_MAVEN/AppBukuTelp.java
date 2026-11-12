@@ -1,4 +1,5 @@
-package com.ibik.pbo.Pembelajaran.PBO_NPM_MAVEN;
+package com.ibik.pbo.Pembelajaran.PBO_25310010_MAVEN;
+
 
 import java.util.ArrayList;
 import javax.swing.*;
@@ -6,8 +7,9 @@ import java.awt.GridLayout;
 
 public class AppBukuTelp {
 
-    static ArrayList<String> daftarNama = new ArrayList<>();             
-    static ArrayList<ArrayList<String>> bukuTelp = new ArrayList<>();    
+    static ArrayList<String> daftarNama = new ArrayList<>();             // 1 dimensi
+    static ArrayList<ArrayList<String>> bukuTelp = new ArrayList<>();    // multidimensi
+
     static void tambah(String nama, String alamat, String telp) {
         daftarNama.add(nama);
         ArrayList<String> row = new ArrayList<>();

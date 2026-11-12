@@ -1,4 +1,4 @@
-package com.ibik.pbo.Pembelajaran.PBO_NPM_MAVEN;
+package com.ibik.pbo.Pembelajaran.PBO_25310010_MAVEN;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
